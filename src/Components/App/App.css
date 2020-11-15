@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 
+*{
+	/*   */
+	box-sizing: border-box;
+	/* width: 100%; */
+	/* height: 100%; */
+}
+
 .app-container {
-	/* height: 100%;
-	width: 100%;
-	margin-top: 0 auto; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -13,6 +17,7 @@
 }
 .Heading{
 	font-family: serif;
+	margin-top: 2vh ;
 	color: rgb(13, 13, 14);
 	font-weight: bold;
 	font-style: italic;
