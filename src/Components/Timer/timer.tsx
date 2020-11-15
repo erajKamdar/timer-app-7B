@@ -9,7 +9,7 @@ const Timer = () => {
   return (
     <div className='timer-container'>
       <div>
-        <img className="img-fluid" src={TimerImg} />
+        <img className="img-fluid" src={TimerImg} alt='timer' />
       </div>
 
       <div className='timer'>
